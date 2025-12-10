@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#red{
+    background-color: red;
+}
+
+#blue{
+    background-color: blue;
+}
+
+#green{
+    background-color: green;
+}
+
+button{
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin: 5px;
+    font-size:20px ;
+}
+
+button:hover{
+    color: #fff;
+    border: none;
+}
+
+
+button{
+    animation-duration: 1.0s;
+    animation-name: slideLeft;
+}
+
+
